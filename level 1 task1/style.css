@@ -1,0 +1,210 @@
+body{
+    background-color: black;
+}
+#main{
+    background-image: url(/zoro\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top;
+    height :95vh;
+    padding: 0px;
+    margin: 10px;
+}
+#main .active{
+    color: black;
+}
+nav{
+    /* position: fixed; */
+    width: 96.5%;
+    text-align: end;
+    padding: 20px;
+    color: rgb(248, 0, 0);
+    background-color: rgb(244, 247, 245);
+}
+/* #logo{
+    color: black;
+    display: flex;
+    flex-direction: columns;
+} */
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 0 10px;
+    position: relative;
+}
+nav ul li.right{
+    color: black;
+    float: left;
+    margin-left: 70px;
+    font-size: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+
+}
+.box{
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+.box h3 a{
+    color: red;
+}
+#main h1{
+    color: rgb(11, 11, 11);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: start;
+}
+#main h3{
+    color: rgb(11, 11, 11);
+    font-size: 50px;
+    font-weight: 500;
+    text-align: start;
+}
+#wallpaper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#wallpaper .res{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #f3f5f3;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(250, 1, 1, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+#wallpaper .res img{
+    width: 100%;
+    border-radius: 20px;
+}
+#wallpaper .zoro1{
+    height: 50vh;
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* desktop */
+#Desktop h1{
+    color: white;
+    font-size: 30px;
+}
+#Desktop h1 a{
+    color: red;
+    font-size:50px;
+}
+#Desk{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+#Desk .res{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #f3f5f3;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(250, 1, 1, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+#Desk .res img{
+    width: 100%;
+    border-radius: 20px;
+}
+#Desktop .active{
+    color: black;
+}
+/* ---------------------------------------------------------------------------------- */
+/* phone */
+#Phone h1{
+    color: white;
+    font-size: 30px;
+}
+#Phone h1 a{
+    color: red;
+    font-size:50px;
+}
+#Phone .active{
+    color: black;
+}
+/* ------------------------------------------------------------------------------------- */
+/* login */
+
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black; 
+}
+
+.log {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.log h1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.log form {
+    display: flex;
+    flex-direction: column;
+}
+
+.log label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.log input[type="text"],
+.log input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.log button {
+    width: 100%;
+    padding: 10px;
+    background-color: #25e1e4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.log button:hover {
+    background-color: #fe0505;
+}
+
